@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { VscBookmark } from 'react-icons/vsc';
 const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
-    const { title, cover, author, author_img, reading_time, posted_date, hashtags } = blog;
+    const {id, title, cover, author, author_img, reading_time, posted_date, hashtags } = blog;
     return (
         <div className='mb-20 space-y-4'>
             <img className='w-full mb-8 rounded-xl' src={cover} alt={`cover picture of the title ${title}`} />
@@ -27,7 +27,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
                     hashtags.map((hash, idx) => <span key={idx}><a href="">{hash}</a></span>)
                 }
             </p>
-            <button onClick={()=>handleMarkAsRead(reading_time)} className='text-purple-600 font-bold underline ml-1'>Mark As Read</button>
+            <button onClick={()=>handleMarkAsRead(reading_time, id)} className='text-purple-600 font-bold underline ml-1'>Mark As Read</button>
 
         </div>
     );
