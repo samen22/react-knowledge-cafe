@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/48DS7d3/1.jpg",
+        "title": "Top 10 Features of ES6",
+        "author_img": "https://i.ibb.co/T8CqM0Q/boy1.png",
+        "author": "Upom Hasan",
+        "posted_date": "September 15, 2023",
+        "reading_time": 12,
+        "hashtags": ["beginners", "es6"]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/KVt5nff/2.png",
+        "title": "JavaScript Objects for Absolute Beginners: A Fun Introduction",
+        "author_img": "https://i.ibb.co/nf59hp2/boy2.jpg",
+        "author": "Hamza Ali",
+        "posted_date": "Mar 14 (4 Days ago)",
+        "reading_time": 5,
+        "hashtags": ["javascript", "beginner"]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/0BS1r74/3.png",
+        "title": "Cooking Delights: A Culinary Journey",
+        "author_img": "https://i.ibb.co/pxDVJfn/girl1.jpg",
+        "author": "Redwan Islam",
+        "posted_date": "August 28, 2023",
+        "reading_time": 15,
+        "hashtags": ["#Cooking", "#Foodie", "#Recipes"]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/jHWdvVh/4.jpg",
+        "title": "Exploring the Cosmos: A Space Odyssey",
+        "author_img": "https://i.ibb.co/4YCd9Dr/girl2.jpg",
+        "author": "Abir Hasan",
+        "posted_date": "July 12, 2023",
+        "reading_time": 25,
+        "hashtags": ["#Space", "#Astronomy", "#Science"]
+    }
+]
