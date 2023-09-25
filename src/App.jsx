@@ -5,14 +5,19 @@ import Blogs from './components/Blogs/Blogs'
 import Bookmarks from './components/Bookmarks/Bookmarks'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [bookmarks, setBookmarks] = useState([]);
+
+  const handleAddToBookmark = blog =>{
+    const newBookmarks = [...bookmarks, blog];
+    setBookmarks(newBookmarks);
+  }
 
   return (
     <>
     <Header></Header>
-    <div className='md:flex'>
-    <Blogs></Blogs>
-    <Bookmarks></Bookmarks>
+    <div className='md:flex max-w-6xl mx-auto mt-8'>
+    <Blogs handleAddToBookmark={handleAddToBookmark}></Blogs>
+    <Bookmarks bookmarks={bookmarks}></Bookmarks>
     </div>
     </>
   )
